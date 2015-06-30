@@ -7871,6 +7871,8 @@ let
 
   qoauth = callPackage ../development/libraries/qoauth { };
 
+  qpp = callPackage ../development/libraries/qpp { };
+
   quazip = callPackage ../development/libraries/quazip {
     qt = qt5;
   };
